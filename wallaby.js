@@ -27,7 +27,7 @@ module.exports = function (wallaby) {
     testFramework: 'mocha',
 
     compilers: {
-      '**/*.ts*': wallaby.compilers.typeScript({ module: 'commonjs' })
+      '**/*.ts*': wallaby.compilers.typeScript({ module: 'es6' })
     },
 
     // as descibed in
